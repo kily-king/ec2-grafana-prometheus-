@@ -14,7 +14,7 @@
   - Configures Gmail SMTP for alerts (you’ll input your Gmail + App Password once)
   - Creates an alert rule (CPU > 80 % for 5 minutes → email notification)
 
-#🧩 Requirements
+🧩 ## Requirements
 
 | Item|	Description|
 |EC2 AMI	|Ubuntu 22.04 LTS|
