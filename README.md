@@ -24,16 +24,18 @@
 
 ⚙️ Steps to Run
 
-     1️⃣ Launch EC2 and SSH in:
-          - ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
-     2️⃣ Create the script file:
-           - nano setup_monitoring_alerts.sh
-     3️⃣ Paste the script below, then save (Ctrl+O, Enter, Ctrl+X).
-     4️⃣ Run it:
+1️⃣ Launch EC2 and SSH in:
+  - ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
+  
+2️⃣ Create the script file:
+  - nano setup_monitoring_alerts.sh
+3️⃣ Paste the script below, then save (Ctrl+O, Enter, Ctrl+X).
+4️⃣ Run it:
+
  ``` chmod +x setup_monitoring_alerts.sh
 ./setup_monitoring_alerts.sh
 ```
+5️⃣ Enter your Gmail and App Password when prompted.
 
-     5️⃣ Enter your Gmail and App Password when prompted.
 
-     🚀 COMPLETE SCRIPT in the repo
+🚀 COMPLETE SCRIPT in the repo
