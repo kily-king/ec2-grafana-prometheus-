@@ -15,12 +15,14 @@
   - Creates an alert rule (CPU > 80 % for 5 minutes → email notification)
 
 🧩 Requirements
+
 | Item|	Description|
 |EC2 AMI	|Ubuntu 22.04 LTS|
 |Instance Type	|t2.micro (or larger)|
 |Storage|	8 GB|
 |Inbound Security Group Ports	|22 (SSH), 3000 (Grafana), 9090 (Prometheus), 9100 (Node Exporter)|
 |Your Gmail	|Must have App Password,  (since 2FA is on)|
+
 
 ⚙️ Steps to Run
 
@@ -29,12 +31,16 @@
   
 2️⃣ Create the script file:
   - nano setup_monitoring_alerts.sh
+
 3️⃣ Paste the script below, then save (Ctrl+O, Enter, Ctrl+X).
+
 4️⃣ Run it:
 
- ``` chmod +x setup_monitoring_alerts.sh
+```
+chmod +x setup_monitoring_alerts.sh
 ./setup_monitoring_alerts.sh
 ```
+
 5️⃣ Enter your Gmail and App Password when prompted.
 
 
