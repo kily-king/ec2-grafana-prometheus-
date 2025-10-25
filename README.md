@@ -14,7 +14,7 @@
   - Configures Gmail SMTP for alerts (you’ll input your Gmail + App Password once)
   - Creates an alert rule (CPU > 80 % for 5 minutes → email notification)
 
-🧩 Requirements
+#🧩 Requirements
 
 | Item|	Description|
 |EC2 AMI	|Ubuntu 22.04 LTS|
@@ -24,7 +24,7 @@
 |Your Gmail	|Must have App Password,  (since 2FA is on)|
 
 
-⚙️ Steps to Run
+#⚙️ Steps to Run
 
 1️⃣ Launch EC2 and SSH in:
   - ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
@@ -44,4 +44,4 @@ chmod +x setup_monitoring_alerts.sh
 5️⃣ Enter your Gmail and App Password when prompted.
 
 
-🚀 COMPLETE SCRIPT in the repo
+#🚀 COMPLETE SCRIPT in the repo
