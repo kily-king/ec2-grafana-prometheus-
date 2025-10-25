@@ -17,6 +17,7 @@
 ## Requirements
 
 | Item|	Description|
+|-|-|
 |EC2 AMI	|Ubuntu 22.04 LTS|
 |Instance Type	|t2.micro (or larger)|
 |Storage|	8 GB|
